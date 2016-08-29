@@ -35,18 +35,37 @@
       <sprite>sprites\SprPuertaGris</sprite>
     </sprites>
     <sprite>sprites\spr_cuchilla</sprite>
+    <sprite>sprites\Spr_Bottom</sprite>
+    <sprites name="UI">
+      <sprite>sprites\spr_healthbar_border</sprite>
+      <sprite>sprites\spr_healthbar_inner</sprite>
+      <sprite>sprites\spr_healthbar_bg</sprite>
+    </sprites>
+    <sprite>sprites\spr_boss</sprite>
+    <sprite>sprites\spr_boss2</sprite>
+    <sprite>sprites\spr_powerupVel</sprite>
+    <sprite>sprites\sprPlayerB</sprite>
+    <sprite>sprites\spr_bulleet</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\Felicitaciones</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\Fnt_small</font>
+    <font>fonts\fnt_large</font>
+  </fonts>
   <objects name="objects">
+    <object>objects\Obj_Score_</object>
     <object>objects\obj_puerta</object>
     <object>objects\obj_meta</object>
     <object>objects\obj_enemigoOrizontal</object>
     <object>objects\obj_enemigoVertical</object>
     <object>objects\obj_enemigoArribaAbajo</object>
+    <object>objects\obj_boss</object>
     <object>objects\obj_jugador_</object>
     <object>objects\obj_muro</object>
     <object>objects\objEnemigoPadre</object>
@@ -76,15 +95,23 @@
     </objects>
     <object>objects\ObjInicio</object>
     <object>objects\ObjCuchilla_</object>
-    <object>objects\ObjGameOver</object>
     <object>objects\ObjFinal</object>
+    <object>objects\Obj_barradevidaEn</object>
+    <object>objects\Obj_instrucciones_</object>
+    <object>objects\Obj_poweupVel</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\obj_boss2</object>
+    <object>objects\obj_GameOver</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\inicio</room>
+    <room>rooms\instrucciones_</room>
+    <room>rooms\boss_final_</room>
     <room>rooms\nivel_1</room>
     <room>rooms\nivel_2</room>
     <room>rooms\nivel_3</room>
     <room>rooms\nivel_4</room>
+    <room>rooms\nivelBonus_</room>
     <room>rooms\Final_</room>
   </rooms>
   <help>
